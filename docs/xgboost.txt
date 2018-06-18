@@ -1,0 +1,15 @@
+xgboost
+
+Extreme Gradient Boosting: boosted trees
+	É um método supervisionado.
+	Usar dados da treino Xi (com multiplas características) ver um a variável alvo Yi
+
+Função Objetivo: Training Loss + Regularization
+	Para encontrar os melhores parametro dados pelo conjunto de treino utilizamos a função objetivo para merdir a performance do modelo com umd eterminado cojunto de parâmetros.
+	obj(θ)=L(θ)+Ω(θ)
+	L: trainning Loss
+	Ω: termo de regularização
+
+Tree Ensemble
+	Conjunto de árvores de classificação e regressão (CART: classification and regression trees)
+	CART diferem de árvore de decisão por apresentar um Score, arvores de decisão apresentam apenas o valor da decisão.
