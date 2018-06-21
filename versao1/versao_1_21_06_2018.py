@@ -48,7 +48,7 @@ def pre_processamento_dados(dados, a_numericos, a_categoricos, scaler = None):
 
 print('Iniciando pre processamento de dados ... ')
 X = pre_processamento_dados(dataset, atributos_numericos, atributos_categoricos)
-# pd.DataFrame(X).to_csv('dados_completos_transformados.csv')
+pd.DataFrame(X).to_csv('dados_completos_transformados.csv')
 y = rotulos
 print('Split conjunto de treinamento ... ')
 X_treino, X_teste, y_treino, y_teste = train_test_split(X, y, test_size=0.2, random_state=42)
